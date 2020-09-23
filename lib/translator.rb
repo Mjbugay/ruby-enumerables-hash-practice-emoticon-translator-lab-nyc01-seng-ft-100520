@@ -6,8 +6,11 @@ def load_library(path)
   library = YAML.load_file(path)
   results = Hash.new
   library.each do |key, value|
-    results[:key][:english] = value[0]
-    results[:key][:japanese] = value[1]
+    results[:key] = {
+      :english => value[0],
+      :japanese => value[1]
+      }
+  
   end
   results
 end
