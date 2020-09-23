@@ -12,7 +12,7 @@ def load_library(path)
     }
   
   end
-  results
+  puts results
 end
   
 def get_japanese_emoticon
