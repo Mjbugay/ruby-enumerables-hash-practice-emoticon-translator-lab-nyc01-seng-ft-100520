@@ -27,7 +27,5 @@ def get_english_meaning(path, emoticon)
   end
 end
 
-
-puts get_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
  
  
