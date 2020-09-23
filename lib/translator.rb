@@ -28,7 +28,6 @@ def get_english_meaning(path, emoticon)
 end
 
 
-puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
- 
+puts gget_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
  
  
