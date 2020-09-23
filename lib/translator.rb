@@ -10,9 +10,8 @@ def load_library(path)
       :english => value[0],
       :japanese => value[1]
     }
-  
   end
-  puts results
+  results
 end
   
 def get_japanese_emoticon
