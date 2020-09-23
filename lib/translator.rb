@@ -9,7 +9,7 @@ def load_library(path)
     results[:key] = {
       :english => value[0],
       :japanese => value[1]
-      }
+    }
   
   end
   results
